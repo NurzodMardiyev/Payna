@@ -359,7 +359,11 @@ li {
     justify-content: center;
   }
 }
-
+@media screen and (max-width: 540px) {
+  .business-title h2 {
+    font-size: 28px;
+  }
+}
 .product {
   display: flex;
   justify-content: space-between;
